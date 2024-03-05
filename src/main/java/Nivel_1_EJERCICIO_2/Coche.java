@@ -2,8 +2,8 @@ package Nivel_1_EJERCICIO_2;
 
 public class Coche {
 
-    static final String marca = "Mercedes";
-    static String modelo = "Vito";
+    static final String marca = "";
+    static String modelo = "";
     final int potencia;
 
     public Coche(int potencia){
