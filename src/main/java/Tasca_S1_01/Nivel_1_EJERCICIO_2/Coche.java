@@ -1,4 +1,4 @@
-package Nivel_1_EJERCICIO_2;
+package Tasca_S1_01.Nivel_1_EJERCICIO_2;
 
 public class Coche {
 

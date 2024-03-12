@@ -1,4 +1,4 @@
-package Nivel_2_EJERCICIO_1;
+package Tasca_S1_01.Nivel_2_EJERCICIO_1;
 
 public class Smartphone extends Telefono implements Camara, Reloj{
     public Smartphone(String marca, String modelo) {
@@ -10,8 +10,6 @@ public class Smartphone extends Telefono implements Camara, Reloj{
 
         System.out.println("Se está haciendo una foto");
     }
-
-    @Override
     public void alarma() {
         System.out.println("Está sonando la alarma");
     }
