@@ -1,4 +1,4 @@
-package Nivel_1_EJERCICIO_1;
+package Tasca_S1_01.Nivel_1_EJERCICIO_1;
 
 public class Cuerda extends Instrumento{
 
