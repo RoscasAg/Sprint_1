@@ -125,7 +125,7 @@ public class Cine {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introducir número de fila: ");
         int fila = sc.nextInt();
-        if (fila < 1 || fila > this.files) {
+        if (fila < 1 || fila > this.filas) {
             throw new ExcepcionesPersonalizadas.ExceptionFilaIncorrecta("Fila incorrecta");
         }
         return fila;
