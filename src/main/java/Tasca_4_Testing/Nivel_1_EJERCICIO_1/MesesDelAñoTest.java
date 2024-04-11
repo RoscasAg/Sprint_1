@@ -7,13 +7,20 @@ import static org.junit.Assert.*;
 
 public class MesesDelAñoTest {
     @Test
-    public void testObtenerMeses() {
+    public void testObtenerMesesNotNull() {
         List<String> meses = MesesDelAño.obtenerMeses();
+        assertNotNull("La lista de meses no tiene que ser null",meses);
+    }
 
-        assertNotNull(meses);
+    @Test
+    public void testObtenerMeses_TamañoCorrecto() {
+        List<String> meses = MesesDelAño.obtenerMeses();
+        assertEquals("La lista de meses tiene que contener 12 elementos", 12, meses.size());
+    }
 
-        assertEquals(12, meses.size());
-
-        assertEquals("Agosto", meses.get(7));
+    @Test
+    public void TestObtenerMeses_ContienAgostoEnPosicioncorrecta(){
+        List<String> meses = MesesDelAño.obtenerMeses();
+        assertEquals("El mes 8 tiene que ser Agosto","Agosto", meses.get(7));
     }
 }
